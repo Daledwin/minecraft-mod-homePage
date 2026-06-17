@@ -3,7 +3,7 @@
 	"id": "homepage",
 	"version": "${version}",
 	"name": "Home Page",
-	"description": "Un mod Fabric.",
+	"description": "Ecran d'accueil Bloomind a la connexion : derniers modes du serveur et commandes de base, avec fleurs de cerisier.",
 	"authors": [],
 	"contact": {},
 	"license": "CC0-1.0",
