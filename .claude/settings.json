@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*fabric-agent-kit/bin/mc-api*)",
+      "Bash(*fabric-agent-kit/bin/mc-smoke*)",
+      "Bash(*fabric-agent-kit/bin/mc-setup*)",
+      "Bash(*gradlew build*)",
+      "Bash(*gradlew runServer*)",
+      "Bash(javap *)",
+      "Bash(find *.gradle/caches*)",
+      "Bash(unzip -l *)"
+    ]
+  }
+}

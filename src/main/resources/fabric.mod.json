@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "homepage",
+	"version": "${version}",
+	"name": "Home Page",
+	"description": "Un mod Fabric.",
+	"authors": [],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hugo.brua.homepage.Homepage"
+		],
+		"client": [
+			"hugo.brua.homepage.client.HomepageClient"
+		]
+	},
+	"mixins": [
+		"homepage.mixins.json",
+		{
+			"config": "homepage.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
